@@ -1,0 +1,35 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "mvn test",
+      "type": "shell",
+      "command": "mvn",
+      "args": ["test"],
+      "options": {
+        "cwd": "C:\\Users\\KAREEM\\Documents\\VSCODE\\Software-Testing-project\\SWTESTING"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "mvn test (ignore failures)",
+      "type": "shell",
+      "command": "mvn",
+      "args": ["test", "-DtestFailureIgnore=true"],
+      "options": {
+        "cwd": "C:\\Users\\KAREEM\\Documents\\VSCODE\\Software-Testing-project\\SWTESTING"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "mvn test BottomUpIntegrationTest (ignore failures)",
+      "type": "shell",
+      "command": "mvn",
+      "args": ["test", "-Dtest=BottomUpIntegrationTest", "-DtestFailureIgnore=true"],
+      "options": {
+        "cwd": "C:\\Users\\KAREEM\\Documents\\VSCODE\\Software-Testing-project\\SWTESTING"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

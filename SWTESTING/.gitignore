@@ -1,0 +1,19 @@
+# Maven build output
+target/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+dist/
+
+# Logs
+*.log
